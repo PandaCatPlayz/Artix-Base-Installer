@@ -10,4 +10,4 @@ sudo pacman --noconfirm -Syyu base-devel xorg xorg-xinit picom vim
 
 # Removes git package
 cd ..
-sudo rm -r Artix-Base-Installer
+sudo rm -r Artix-Base-Installer/

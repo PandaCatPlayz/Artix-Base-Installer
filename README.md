@@ -8,7 +8,7 @@ sudo pacman --noconfirm -Sy git base-devel
 
 git clone https://github.com/PandaCatPlayz/Artix-Base-Installer.git
 
-cd Artix-Base-Installer
+cd Artix-Base-Installer/
 
 sh install.sh
 ```
