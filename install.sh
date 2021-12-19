@@ -6,10 +6,11 @@
 cd
 
 # Updates system and adds a few of my needed packages
-sudo pacman --noconfirm -Syu base-devel xorg xorg-xinit picom nvim
+sudo pacman --noconfirm -Syu base-devel xorg xorg-xinit picom nvim libffi
 
 # Installs yay
 cd 
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+make clean
+sudo make install
