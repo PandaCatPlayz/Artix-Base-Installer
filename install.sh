@@ -6,7 +6,7 @@
 cd
 
 # Updates system and adds a few of my needed packages
-sudo pacman --noconfirm -Syu base-devel xorg xorg-xinit picom nvim libffi
+sudo pacman --noconfirm -Syyu base-devel xorg xorg-xinit picom nvim libffi8
 
 # Installs yay
 cd 
