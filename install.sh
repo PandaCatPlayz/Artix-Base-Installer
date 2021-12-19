@@ -6,7 +6,7 @@
 cd ..
 
 # Updates system and adds a few of my needed packages
-sudo pacman --noconfirm -Syyu base-devel xorg xorg-xinit picom vim
+sudo pacman --noconfirm -Syyu base-devel libx11 libxft xorg xorg-xinit picom vim terminus-font
 
 # Removes git package
 cd ..
