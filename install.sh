@@ -3,7 +3,11 @@
 # Site: https://github.com/PandaCatPlayz/Artix-Base-Installer
 
 # Go to main directory
-cd
+cd ..
 
 # Updates system and adds a few of my needed packages
 sudo pacman --noconfirm -Syyu base-devel xorg xorg-xinit picom vim
+
+# Removes git package
+cd ..
+sudo rm -r Artix-Base-Installer
